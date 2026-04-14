@@ -25,7 +25,7 @@ rustrix [OPTIONS]
 
 | Option | Description |
 |---|---|
-| *(none)* | Letters mode — A–Z, a–z, 0–9 |
+| `-l`, `--letters` | Letters mode — A–Z, a–z, 0–9 (default) |
 | `-b`, `--binary` | Binary mode — 0 and 1 only |
 
 ## Controls

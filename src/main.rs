@@ -35,6 +35,7 @@ fn parse_args() -> Config {
     if args.iter().any(|a| a == "--binary" || a == "-b") {
         Config { glyphs: BINARY_GLYPHS, char_width: 1 }
     } else {
+        // --letters / -l is the default; accepted explicitly too
         Config { glyphs: LETTERS_GLYPHS, char_width: 1 }
     }
 }
